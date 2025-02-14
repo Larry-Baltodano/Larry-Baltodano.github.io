@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Portafolio - Larry Baltodano</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">LB</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="perfil.png" alt="">
+            </div>
+            <h1>Larry Baltodano</h1>
+            <h2 id="text-dinamico"></h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/larry.baltodano.52"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/larry-baltodano-a2563129a/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/monkey.d.larry_26/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@larrybaltodano26"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://github.com/Larry-Baltodano"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Larry Baltodano.</span> Soy un desarrollador Backend en formación y estudiante de
+                Ingeniería en Sistemas, con experiencia en Java y
+                Spring Boot para la creación de APIs REST seguras. También manejo Python para backend con FastAPI y
+                Flask, además de scripts automatizados. Aunque mi enfoque principal es Java, planeo explorar Django y
+                php junto a Laravel
+                en el futuro.</p>
+            <p>Actualmente, profundizo en patrones de diseño y arquitectura de
+                microservicios, explorando Docker y Kubernetes. Todo con el fin de seguir aprendiendo y sobre todo
+                ampliar mis conocimientos para aplicarlos dentro de un entorno laboral y hasta de transmitirlo a otros
+            </p>
+            <a href="CV.pdf" download="CV.pdf">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <!-- Technical Skills -->
+                <div class="skill-group">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-list">
+                        <p align="center">
+                            <img
+                                src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
+                            <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+                            <img
+                                src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/FastAPI-%23009966.svg?style=for-the-badge&logo=fastapi&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Flask-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/HTML%20%26%20CSS-%232391F0.svg?style=for-the-badge&logo=html5&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/MySQL-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
+                            <img src="https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
+                            <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>                        
+                        </p>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="skill-group">
+                    <h3>Professional Skills</h3>
+                    <div class="skills-list">
+                        <p align="center">
+                            <img
+                                src="https://img.shields.io/badge/Comunicación-%236A1B9A.svg?style=for-the-badge&logo=communication&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Trabajo%20en%20Equipo-%230288D1.svg?style=for-the-badge&logo=teamwork&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Creatividad-%23388E3C.svg?style=for-the-badge&logo=creativity&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Dedicación-%23F57C00.svg?style=for-the-badge&logo=dedication&logoColor=white" />
+                            <img
+                                src="https://img.shields.io/badge/Project%20Management-%23D32F2F.svg?style=for-the-badge&logo=projectmanagement&logoColor=white" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria en sistemas</h4>
+                        <span class="casa">Universidad Nacional Multidisciplinaria Ricardo Morales Aviles</span>
+                        <span class="fecha">2021 - Actualidad 2025</span>
+                        <p>Estudiante activo con gran interes en la tecnologia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso profesional de Java 2024</h4>
+                        <span class="casa">Udemy - Alex Roel</span>
+                        <span class="fecha">2024</span>
+                        <p>Curso de Java de cero a experto</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Aprende el lenguaje C</h4>
+                        <span class="casa">Udemy - Portal de Ingenieria</span>
+                        <span class="fecha">2024</span>
+                        <p>Curso del lenguaje C de cero a experto</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Escuela de Python</h4>
+                        <span class="casa">Udemy - Alex Roel</span>
+                        <span class="fecha">2023</span>
+                        <p>Curso de Python version 3.9+ de cero a master</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia educativa</h3>
+                    <div class="item der">
+                        <h4>Desarrollador Backend</h4>
+                        <span class="casa">Proyecto de clase - Diccionario Médico Web App</span>
+                        <span class="fecha">Octubre - Noviembre 2024</span>
+                        <i class="fa-solid fa-angle-down fa-2x flecha" onclick="toggleDescripcion(this)"
+                            style="color: #009dff;"></i>
+                        <div class="descripcion oculto">
+                            <p>-> APP WEB de tipo monolito</p>
+                            <p>-> Aplicación web básica con estructura MVC utilizando Java, Spring Boot y MySQL.</p>
+                            <p>-> Implementé funcionalidades de registro, edición y eliminación de información médica.</p>
+                            <p>-> Integré seguridad básica para autenticación de usuarios.</p>
+                            <p>-> Desarrollé el frontend básico con HTML, Bootstrap y Thymeleaf.</p>
+                            <p>-> Falta implementar las autorizaciones de usuarios</p>
+                            <a href="https://github.com/Larry-Baltodano/new-medical-dictionary-project" target="_blank">
+                                <button>
+                                    Repositorio <i class="fa-brands fa-github"></i>
+                                    <span class="overlay"></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador Backend</h4>
+                        <span class="casa">Aprendizaje - eCommerce Dream Shops</span>
+                        <span class="fecha">Septiembre 2024</span>
+                        <i class="fa-solid fa-angle-down fa-2x flecha" onclick="toggleDescripcion(this)"
+                            style="color: #009dff;"></i>
+                        <div class="descripcion oculto">                            
+                            <p>-> Integré seguridad básica para autenticación de usuarios.</p>
+                            <p>-> Backend del portal utilizando Java y Spring Boot.</p>
+                            <p>-> Implementé una API REST con seguridad a través de Spring Security y JWT.</p>
+                            <p>-> Creé modelos de datos y repositorios para el CRUD básico en PostgreSQL.</p>
+                            <p>-> Desarrollé funcionalidades como registro de productos, carritos de compra, ordenes y
+                                asignacion de imagenes para los productos.</p>                            
+                            <!-- Botón con enlace al repositorio -->
+                            <a href="https://github.com/Larry-Baltodano/dream-shops-project" target="_blank">
+                                <button>
+                                    Repositorio <i class="fa-brands fa-github"></i>
+                                    <span class="overlay"></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Coordinador - Desarrollador Backend</h4>
+                        <span class="casa">Hackathon - Portal para Pacientes Diabéticos</span>
+                        <span class="fecha">Agosto - Septiembre 2024</span>
+                        <i class="fa-solid fa-angle-down fa-2x flecha" onclick="toggleDescripcion(this)"
+                            style="color: #009dff;"></i>
+                        <div class="descripcion oculto">
+                            <p>-> APIREST de tipo monolito</p>
+                            <p>-> Integré seguridad básica para autenticación de usuarios.</p>
+                            <p>-> Backend del portal utilizando Java y Spring Boot.</p>
+                            <p>-> Implementé una API REST con seguridad a través de Spring Security y JWT.</p>
+                            <p>-> Creé modelos de datos y repositorios para el CRUD básico en PostgreSQL.</p>
+                            <p>-> Desarrollé funcionalidades como registro de pacientes, gestión de citas y
+                                notificaciones con ayuda del servicio de Twilio.</p>
+                            <p>-> Falta corregir algunos detalles o mejoras como la parte de autorizaciones</p>
+                            <!-- Botón con enlace al repositorio -->
+                            <a href="https://github.com/Larry-Baltodano/new-project-portal/tree/new" target="_blank">
+                                <button>
+                                    Repositorio <i class="fa-brands fa-github"></i>
+                                    <span class="overlay"></span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="portafolio1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diccionario medico</h3>
+                        <p>App web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="portafolio1.1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diccionario medico</h3>
+                        <p>App web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ecommerce.png" alt="">
+                    <div class="overlay">
+                        <h3>eCommerce - Dream shops</h3>
+                        <p>APIREST - Postman</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ecommerce1.png" alt="">
+                    <div class="overlay">
+                        <h3>eCommerce - Dream shops</h3>
+                        <p>APIREST - Postman</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="portal.png" alt="">
+                    <div class="overlay">
+                        <h3>Portal para pacientes</h3>
+                        <p>Intellij IDEA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="portal1.png" alt="">
+                    <div class="overlay">
+                        <h3>Portal para pacientes</h3>
+                        <p>Intellij IDEA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTAME</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" id="nombre" placeholder="Tu Nombre">
+                    <input type="text" id="telefono" placeholder="Número telefónico">
+                    <input type="email" id="correo" placeholder="Dirección de correo">
+                    <input type="text" id="tema" placeholder="Tema">
+                    <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button onclick="enviarMensaje()">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Información de contacto -->
+                <div class="col">
+                    <div class="info">
+                        <ul>                        
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span id="correo-info">baltolarry.23@gmail.com</span>
+                                <button onclick="copiarTexto('correo-info')">
+                                    <i class="fa-solid fa-copy"></i> Copiar
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/larry.baltodano.52"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/larry-baltodano-a2563129a/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/monkey.d.larry_26/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@larrybaltodano26"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://github.com/Larry-Baltodano"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
