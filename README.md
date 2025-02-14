@@ -6,14 +6,14 @@ Bienvenido a mi portafolio web. Aquí muestro mis proyectos, habilidades y exper
 Puedes ver mi portafolio en vivo aquí: [Enlace a la demo](https://tu-enlace.com)
 
 ## 📸 Capturas de Pantalla
-
-![Captura de pantalla 1](ruta/a/imagen1.png)
-![Captura de pantalla 2](ruta/a/imagen2.png)
+<p align="center">
+  <img src="https://github.com/Larry-Baltodano/Larry-Baltodano.github.io/blob/main/Captura1.png" alt="Banner" width="60%">
+</p>
+<p align="center">
+  <img src="https://github.com/Larry-Baltodano/Larry-Baltodano.github.io/blob/main/Captura2.png" alt="Banner" width="20%">
+</p>
 
 ## 🛠️ Tecnologías Utilizadas
 - HTML5
 - CSS3
 - JavaScript
-
-## 📜 Licencia
-Este proyecto está bajo la licencia [MIT](LICENSE).
