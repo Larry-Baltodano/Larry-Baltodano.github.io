@@ -3,7 +3,7 @@
 Bienvenido a mi portafolio web. Aquí muestro mis proyectos, habilidades y experiencia como desarrollador Backend.
 
 ## 🌐 Demo
-Puedes ver mi portafolio en vivo aquí: [Enlace a la demo]([https://tu-enlace.com](https://larry-baltodano.github.io/))
+Puedes ver mi portafolio en vivo aquí: [Enlace a la web](https://larry-baltodano.github.io/)
 
 ## 📸 Capturas de Pantalla
 <p align="center">
